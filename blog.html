@@ -31,10 +31,10 @@
         </section>
     </header>
 
-<main>
-    <div class="w-10/12 mx-auto mt-5 mb-12">
+    <main>
+        <div class="w-10/12 mx-auto mt-5 mb-12">
 
-        <h1 class="text-center text-3xl font-bold">Var, Let, and Const - What's the Difference?</h1>
+            <h1 class="text-center text-3xl font-bold">Var, Let, and Const - What's the Difference?</h1>
             <div class="mt-4 bg-white p-5 rounded-lg">
                 <h1 class="text-2xl font-bold">Var</h1>
                 <p>
@@ -86,5 +86,40 @@
                 </p>
             </div>
 
-    </div>
-</main>
+            <div class="mt-4 bg-white p-5 rounded-lg">
+                <h1 class="text-2xl font-bold">Const</h1>
+                <p>
+                    Variables declared with the const maintain constant values. const declarations share some
+                    similarities with let declarations.
+                </p>
+                <h1 class="text-2xl font-bold mt-5">const declarations are block scoped</h1>
+                <p>
+                    Like let declarations, const declarations can only be accessed within the block they were
+                    declared.
+                </p>
+                <h1 class="text-2xl font-bold mt-5">const cannot be updated or re-declared</h1>
+                <p>
+                    This means that the value of a variable declared with const remains the same within its scope.
+                    It cannot be updated or re-declared. So if we declare a variable with const.
+                </p>
+                <h1 class="text-2xl font-bold mt-5">Hoisting of const</h1>
+                <br>
+                Just like let, const declarations are hoisted to the top but are not initialized. So just in
+                case you missed the differences, here they are:</br>
+                <li> var declarations are globally scoped or function
+                    scoped while let and const are block scoped. </li>
+                <li>var variables can be updated and re-declared within
+                    its scope; let variables can be updated but not re-declared;
+                    const variables can neither be
+                    updated nor re-declared.</li>
+                <li> They are all hoisted to the top of their scope. But while var variables
+                    are initialized with undefined, let and const variables are not initialized.</li>
+                <li> While var and let
+                    can be declared without being initialized, const must be initialized during declaration.</li>
+                </p>
+            </div>
+
+            
+
+        </div>
+    </main>
