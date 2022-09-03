@@ -59,5 +59,32 @@
                     top of their scope before code execution.
                 </p>
             </div>
+
+            <div class="mt-4 bg-white p-5 rounded-lg">
+                <h1 class="text-2xl font-bold">Let</h1>
+                <p>
+                    let is now preferred for variable declaration. It's no surprise as it comes as an improvement to
+                    var declarations. It also solves the problem with var that we just covered. Let's consider why
+                    this is so.
+                </p>
+                <h1 class="text-2xl font-bold mt-5">let is block scoped</h1>
+                <p>
+                    A block is a chunk of code bounded by {}. A block lives in curly braces. Anything within curly
+                    braces is a block. So a variable declared in a block with let is only available for use within
+                    that block.
+                </p>
+                <h1 class="text-2xl font-bold mt-5">let can be updated but not re-declared.</h1>
+                <p>
+                    Just like var, a variable declared with let can be updated within its scope. Unlike var, a let
+                    variable cannot be re-declared within its scope.
+                </p>
+                <h1 class="text-2xl font-bold mt-5">Hoisting of let</h1>
+                <p>
+                    Just like var, let declarations are hoisted to the top. Unlike var which is initialized as
+                    undefined, the let keyword is not initialized. So if you try to use a let variable before
+                    declaration, you'll get a Reference Error.
+                </p>
+            </div>
+
     </div>
 </main>
