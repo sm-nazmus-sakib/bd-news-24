@@ -27,6 +27,7 @@ const displayCategory = (categories) => {
 
 loadCategory();
 
+
 //-----------------category items api-----------------------
 const loadCategoryItem = async (category_id, category_name) => {
     toggleSpinner(true);
